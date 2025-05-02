@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Student ID Information</h1>
+    <u><h4>RIDGEVIEW HIGH SCHOOL</h4></u>
+    <img src="school.jpeg" width="500" height="200">
+<form action="post">
+    <div>
+<label for="username">Enter your name</label>
+<input type="text" name="username" placeholder="Enter your name" required>
+</div>
+<br>
+<div>
+    <label for="gender">Enter Gender</label>
+<input type="radio" name="gender" id="male" value="male">Male
+<input type="radio" name="gender" id="female" value="female">Female
+</div>
+<br>
+<div>
+    <label for="age">Age</label>
+    <select name="age">
+        <option value="16">16</option>        
+        <option value="15">15</option>        
+        <option value="14">14</option>        
+        <option value="13">13</option>        
+        <option value="12">12</option>        
+    </select>
+</div>
+<br>
+<label for="address">Enter address</label>
+    <textarea name="address" rows="4" cols="40" placeholder="Enter here"></textarea>
+    <br>
+<div>
+    <br>
+<label for="fees">Is the fees paid?</label>
+<input type="checkbox" id="fees" name="fees" value="yes">
+</div>
+<br>
+<center>
+<input type="submit" value="Submit">
+<button type="reset">RESET</button>
+</center>
+</body>
+</html>
